@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://4vcyw4l07oq4"]
+
+[ext_resource type="Script" uid="uid://cbvweuoeiskwe" path="res://Scripts/spawner_2_0.gd" id="1_5sjjm"]
+
+[node name="Spawner2_0" type="Node2D" groups=["game_spawners"]]
+script = ExtResource("1_5sjjm")
+
+[node name="Timer" type="Timer" parent="."]
+autostart = true
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(-1, -13, -16, -3, -2, 17, 25, -1)
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

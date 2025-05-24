@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://df3uthrb47x1t"
+path="res://.godot/imported/20 Gauge Double Tap.wav-98dff97fa78857d7db397f4ee3affb36.sample"
+
+[deps]
+
+source_file="res://sounds/Som tiro/20 Gauge/WAV/20 Gauge Double Tap.wav"
+dest_files=["res://.godot/imported/20 Gauge Double Tap.wav-98dff97fa78857d7db397f4ee3affb36.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

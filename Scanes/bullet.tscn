@@ -1,0 +1,30 @@
+[gd_scene load_steps=4 format=3 uid="uid://k3flx7cgllgl"]
+
+[ext_resource type="Script" uid="uid://wrs2hdofu77y" path="res://Scripts/bullet.gd" id="1_5h5p3"]
+[ext_resource type="Texture2D" uid="uid://cuwvfu7qq0j0" path="res://Sprites/kenney_top-down-shooter/Bullets/bulletBeige_outline.png" id="1_gmxsb"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_7pxbq"]
+radius = 4.0
+height = 14.0
+
+[node name="Area2D" type="Area2D" groups=["Bullet"]]
+script = ExtResource("1_5h5p3")
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="bullet" type="Sprite2D" parent="Node2D"]
+texture_filter = 1
+rotation = 1.5708
+scale = Vector2(0.33, 0.3)
+texture = ExtResource("1_gmxsb")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_7pxbq")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 1.5
+one_shot = true
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

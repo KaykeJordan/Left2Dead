@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Enemy" load_steps=3 format=3 uid="uid://cpgmt5pidyvq3"]
+
+[ext_resource type="Script" uid="uid://c6twj7m8pba0g" path="res://Scripts/EnemyType.gd" id="1_6ucl2"]
+[ext_resource type="Texture2D" uid="uid://e62ka0qhvc0h" path="res://Sprites/kenney_top-down-shooter/PNG/Zombie 1/zoimbie1_stand.png" id="2_vnd8y"]
+
+[resource]
+script = ExtResource("1_6ucl2")
+title = "Zombie"
+texture = ExtResource("2_vnd8y")
+health = 0.0
+damage = 2.0

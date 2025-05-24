@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cuxdvoqlv2fig"
+path="res://.godot/imported/Zombie Horror Ambience.ogg-1c367396292801d337ee92bea7fa8cdf.oggvorbisstr"
+
+[deps]
+
+source_file="res://sounds/Musica ambiente/Zombie Horror Ambience.ogg"
+dest_files=["res://.godot/imported/Zombie Horror Ambience.ogg-1c367396292801d337ee92bea7fa8cdf.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

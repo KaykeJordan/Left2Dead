@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dlsnldtx7jtdr"
+path="res://.godot/imported/20 Gauge Burst.mp3-5cb920161aaa43f44c8de7ccb7e831bd.mp3str"
+
+[deps]
+
+source_file="res://sounds/Som tiro/20 Gauge/MP3/20 Gauge Burst.mp3"
+dest_files=["res://.godot/imported/20 Gauge Burst.mp3-5cb920161aaa43f44c8de7ccb7e831bd.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Enemy" load_steps=3 format=3 uid="uid://dhgb2ufibinu7"]
+
+[ext_resource type="Script" uid="uid://c6twj7m8pba0g" path="res://Scripts/EnemyType.gd" id="1_l48cy"]
+[ext_resource type="Texture2D" uid="uid://clk57y53611fq" path="res://Sprites/kenney_top-down-shooter/PNG/Zombie 1/zoimbie1_hold.png" id="2_7pme3"]
+
+[resource]
+script = ExtResource("1_l48cy")
+title = "Zombie-walk"
+texture = ExtResource("2_7pme3")
+health = 0.0
+damage = 4.0

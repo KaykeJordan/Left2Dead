@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dk3b08fyqsooh"
+path="res://.godot/imported/9mm Double Tap.mp3-8bb95bbee06d14901a715311bc695977.mp3str"
+
+[deps]
+
+source_file="res://sounds/Som tiro/9mm/MP3/9mm Double Tap.mp3"
+dest_files=["res://.godot/imported/9mm Double Tap.mp3-8bb95bbee06d14901a715311bc695977.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

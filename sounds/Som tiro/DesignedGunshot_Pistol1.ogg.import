@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dtt5scjd4eroy"
+path="res://.godot/imported/DesignedGunshot_Pistol1.ogg-1ad062e6b3284cdcfc693c64f7760126.oggvorbisstr"
+
+[deps]
+
+source_file="res://sounds/Som tiro/DesignedGunshot_Pistol1.ogg"
+dest_files=["res://.godot/imported/DesignedGunshot_Pistol1.ogg-1ad062e6b3284cdcfc693c64f7760126.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
